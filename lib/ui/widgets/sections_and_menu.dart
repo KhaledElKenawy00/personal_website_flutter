@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:personal_website_flutter/core/spacing.dart';
+import 'package:personal_website_flutter/core/helpers/spacing.dart';
 
-import 'core/theming/styles.dart';
+import '../../core/helpers/global_keys.dart';
+import '../../core/theming/styles.dart';
 
 class SectionsAndMenu extends StatelessWidget {
   const SectionsAndMenu({super.key});
@@ -17,14 +18,32 @@ class SectionsAndMenu extends StatelessWidget {
           image: const AssetImage('assets/images/name_logo.png'),
         ),
         horizontalSpace(100),
-        Text(
-          'About',
-          style: TextStyles.font20WhiteMedium,
+        InkWell(
+          onTap: () {
+            Scrollable.ensureVisible(
+              GlobalKeys.aboutKey.currentContext!,
+              duration: const Duration(milliseconds: 200),
+              curve: Curves.easeInOut,
+            );
+          },
+          child: Text(
+            'About',
+            style: TextStyles.font20WhiteMedium,
+          ),
         ),
         horizontalSpace(40),
-        Text(
-          'Services',
-          style: TextStyles.font20WhiteMedium,
+        InkWell(
+          onTap: () {
+            Scrollable.ensureVisible(
+              GlobalKeys.servicesKey.currentContext!,
+              duration: const Duration(milliseconds: 200),
+              curve: Curves.easeInOut,
+            );
+          },
+          child: Text(
+            'Services',
+            style: TextStyles.font20WhiteMedium,
+          ),
         ),
         horizontalSpace(40),
         Text(
