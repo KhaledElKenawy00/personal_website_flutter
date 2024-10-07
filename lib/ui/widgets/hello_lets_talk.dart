@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../core/helpers/global_keys.dart';
 import '../../core/helpers/spacing.dart';
 import '../../core/theming/colors.dart';
 import '../../core/theming/styles.dart';
@@ -11,6 +12,7 @@ class HelloLetsTalk extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
+      key: GlobalKeys.aboutKey,
       padding: EdgeInsetsDirectional.only(start: 5.w),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,

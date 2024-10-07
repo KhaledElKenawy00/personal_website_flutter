@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:personal_website_flutter/core/helpers/spacing.dart';
 
 import '../../core/helpers/global_keys.dart';
@@ -52,16 +53,17 @@ class SectionsAndMenu extends StatelessWidget {
         ),
         horizontalSpace(40),
         Text(
-          'Blog',
+          'Hobbies',
           style: TextStyles.font20WhiteMedium,
         ),
         const Spacer(),
         CircleAvatar(
           radius: 24.r,
           backgroundColor: Colors.white,
-          child: const Icon(
-            Icons.menu,
-            color: Colors.black,
+          child: SvgPicture.asset(
+            'assets/svgs/menu_black.svg',
+            width: 30.w,
+            height: 30.h,
           ),
         ),
       ],
