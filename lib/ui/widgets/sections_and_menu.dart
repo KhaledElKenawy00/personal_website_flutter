@@ -47,14 +47,32 @@ class SectionsAndMenu extends StatelessWidget {
           ),
         ),
         horizontalSpace(40),
-        Text(
-          'Works',
-          style: TextStyles.font20WhiteMedium,
+        InkWell(
+          onTap: () {
+            Scrollable.ensureVisible(
+              GlobalKeys.portfolioKey.currentContext!,
+              duration: const Duration(milliseconds: 200),
+              curve: Curves.easeInOut,
+            );
+          },
+          child: Text(
+            'Portfolio',
+            style: TextStyles.font20WhiteMedium,
+          ),
         ),
         horizontalSpace(40),
-        Text(
-          'Hobbies',
-          style: TextStyles.font20WhiteMedium,
+        InkWell(
+          onTap: () {
+            Scrollable.ensureVisible(
+              GlobalKeys.hobbiesKey.currentContext!,
+              duration: const Duration(milliseconds: 200),
+              curve: Curves.easeInOut,
+            );
+          },
+          child: Text(
+            'Hobbies',
+            style: TextStyles.font20WhiteMedium,
+          ),
         ),
         const Spacer(),
         CircleAvatar(
