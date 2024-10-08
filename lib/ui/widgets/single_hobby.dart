@@ -10,12 +10,16 @@ class SingleHobby extends StatelessWidget {
   final String hobbyIcon;
   final String hobbyName;
   final Color shadowColor;
+  final double iconWidth;
+  final double iconHeight;
   const SingleHobby({
     super.key,
     required this.hobbyContainerColor,
     required this.hobbyIcon,
     required this.hobbyName,
     required this.shadowColor,
+    this.iconWidth = 80,
+    this.iconHeight = 80,
   });
 
   @override
@@ -40,13 +44,13 @@ class SingleHobby extends StatelessWidget {
           hobbyIcon.contains('svg') == true
               ? SvgPicture.asset(
                   hobbyIcon,
-                  width: 80.w,
-                  height: 80.h,
+                  width: iconWidth.w,
+                  height: iconHeight.h,
                 )
               : Image.asset(
                   hobbyIcon,
-                  width: 80.w,
-                  height: 80.h,
+                  width: iconWidth.w,
+                  height: iconHeight.h,
                 ),
           verticalSpace(10),
           Text(

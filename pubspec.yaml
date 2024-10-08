@@ -45,6 +45,8 @@ dependencies:
   flutter_screenutil: ^5.9.3
   # A customizable shadow for any widget
   simple_shadow: ^0.3.1
+  
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:

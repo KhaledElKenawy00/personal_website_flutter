@@ -5,4 +5,6 @@ class GlobalKeys {
   static final GlobalKey servicesKey = GlobalKey();
   static final GlobalKey portfolioKey = GlobalKey();
   static final GlobalKey hobbiesKey = GlobalKey();
+  static final GlobalKey letsTalkKey = GlobalKey();
+
 }

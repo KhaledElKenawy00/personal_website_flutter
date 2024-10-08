@@ -38,7 +38,13 @@ class HelloLetsTalk extends StatelessWidget {
               ),
               padding: EdgeInsets.symmetric(horizontal: 50.w, vertical: 20.h),
             ),
-            onPressed: () {},
+            onPressed: () {
+              Scrollable.ensureVisible(
+                GlobalKeys.letsTalkKey.currentContext!,
+                duration: const Duration(milliseconds: 200),
+                curve: Curves.easeInOut,
+              );
+            },
             child: Text(
               'Let’s Talk',
               style: TextStyles.font24WhiteMedium,

@@ -38,17 +38,19 @@ class HobbiesPage extends StatelessWidget {
           Row(
             children: [
               const SingleHobby(
-                hobbyContainerColor: ColorsManager.lightPink,
+                hobbyContainerColor: ColorsManager.lightBlue,
                 hobbyIcon: 'assets/svgs/gym.svg',
                 hobbyName: 'Gym',
                 shadowColor: ColorsManager.pink,
               ),
               horizontalSpace(50),
               const SingleHobby(
-                hobbyContainerColor: ColorsManager.lightGreen,
-                hobbyIcon: 'assets/images/anime.jpg',
+                hobbyContainerColor: ColorsManager.lightPink,
+                hobbyIcon: 'assets/images/killua.png',
                 hobbyName: 'Anime',
-                shadowColor: ColorsManager.green,
+                shadowColor: ColorsManager.pink,
+                iconHeight: 110,
+                iconWidth: 110,
               ),
               horizontalSpace(50),
               const SingleHobby(
@@ -56,12 +58,21 @@ class HobbiesPage extends StatelessWidget {
                 hobbyIcon: 'assets/svgs/football.svg',
                 hobbyName: 'Football',
                 shadowColor: ColorsManager.pink,
+                iconHeight: 70,
+                iconWidth: 70,
+              ),
+              horizontalSpace(50),
+              const SingleHobby(
+                hobbyContainerColor: ColorsManager.lightPink,
+                hobbyIcon: 'assets/images/yasuo.png',
+                hobbyName: 'Gaming',
+                shadowColor: ColorsManager.pink,
               ),
               horizontalSpace(50),
               const SingleHobby(
                 hobbyContainerColor: ColorsManager.lightBlue,
-                hobbyIcon: 'assets/images/yasuo.png',
-                hobbyName: 'Gaming',
+                hobbyIcon: 'assets/svgs/youtube.svg',
+                hobbyName: 'Content',
                 shadowColor: ColorsManager.pink,
               ),
             ],

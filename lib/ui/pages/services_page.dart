@@ -12,52 +12,55 @@ class ServicesPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      key: GlobalKeys.servicesKey,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          'Services',
-          style: TextStyles.font18WhiteRegular,
-        ),
-        verticalSpace(4),
-        Divider(
-          color: ColorsManager.mainPurple,
-          thickness: 2,
-          endIndent: 1225.w,
-        ),
-        verticalSpace(20),
-        Text(
-          'What actually\nI love to do',
-          textAlign: TextAlign.start,
-          style: TextStyles.font36WhiteBold,
-        ),
-        verticalSpace(100),
-        Row(
-          children: [
-            const MySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Mobile Development',
-              description:
-                  'New demos are continually added and buying a\nsingle license for Mak gives you access to all of\nwhat\'s shown below, plus everything that will be\nadded in the future.',
-            ),
-            horizontalSpace(50),
-            const MySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Brand Design',
-              description:
-                  'New demos are continually added and buying a\nsingle license for Mak gives you access to all of\nwhat\'s shown below, plus everything that will be\nadded in the future.',
-            ),
-            horizontalSpace(50),
-            const MySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Brand Design',
-              description:
-                  'New demos are continually added and buying a\nsingle license for Mak gives you access to all of\nwhat\'s shown below, plus everything that will be\nadded in the future.',
-            ),
-          ],
-        ),
-      ],
+    return Padding(
+      padding: EdgeInsetsDirectional.only(end: 165.w),
+      child: Column(
+        key: GlobalKeys.servicesKey,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Services',
+            style: TextStyles.font18WhiteRegular,
+          ),
+          verticalSpace(4),
+          Divider(
+            color: ColorsManager.mainPurple,
+            thickness: 2,
+            endIndent: 1225.w,
+          ),
+          verticalSpace(20),
+          Text(
+            'What actually\nI love to do',
+            textAlign: TextAlign.start,
+            style: TextStyles.font36WhiteBold,
+          ),
+          verticalSpace(100),
+          Row(
+            children: [
+              const MySkills(
+                image: 'assets/images/mobile.png',
+                title: 'Mobile Development',
+                description:
+                    'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
+              ),
+              horizontalSpace(100),
+              const MySkills(
+                image: 'assets/images/mobile.png',
+                title: 'Project Management',
+                description:
+                    'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
+              ),
+              horizontalSpace(100),
+              const MySkills(
+                image: 'assets/images/mobile.png',
+                title: 'Teaching',
+                description:
+                    'I love teaching people stuff, I have\nbeen teaching for more than 7 years now\nand I love it, I make content on youTube\nonly and my content is free.',
+              ),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }
