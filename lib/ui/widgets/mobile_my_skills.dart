@@ -22,10 +22,10 @@ class MobileMySkills extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image(
               width: 50.w,
-              height: 50.h,
               image: AssetImage(image),
             ),
             horizontalSpace(10),
@@ -35,7 +35,7 @@ class MobileMySkills extends StatelessWidget {
             ),
           ],
         ),
-        verticalSpace(20),
+        verticalSpace(10),
         Text(
           description,
           style: TextStyles.font16WhiteRegular,

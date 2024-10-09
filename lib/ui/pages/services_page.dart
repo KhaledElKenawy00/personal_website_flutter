@@ -26,7 +26,7 @@ class ServicesPage extends StatelessWidget {
           Divider(
             color: ColorsManager.mainPurple,
             thickness: 2,
-            endIndent: 1225.w,
+            endIndent: 1060.w,
           ),
           verticalSpace(20),
           Text(

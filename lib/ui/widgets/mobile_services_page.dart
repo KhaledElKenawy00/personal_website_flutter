@@ -6,7 +6,6 @@ import '../../core/helpers/global_keys.dart';
 import '../../core/helpers/spacing.dart';
 import '../../core/theming/colors.dart';
 import '../../core/theming/styles.dart';
-import '../widgets/my_skills.dart';
 
 class MobileServicesPage extends StatelessWidget {
   const MobileServicesPage({super.key});
@@ -24,11 +23,11 @@ class MobileServicesPage extends StatelessWidget {
         Divider(
           color: ColorsManager.mainPurple,
           thickness: 2,
-          endIndent: 1100.w,
+          endIndent: 1190.w,
         ),
         verticalSpace(10),
         Text(
-          'What actually\nI love to do',
+          'What actually I love to do',
           textAlign: TextAlign.start,
           style: TextStyles.font26WhiteBold,
         ),
@@ -41,21 +40,21 @@ class MobileServicesPage extends StatelessWidget {
               description:
                   'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
             ),
-            horizontalSpace(50),
+            horizontalSpace(100),
             const MobileMySkills(
               image: 'assets/images/mobile.png',
               title: 'Project Management',
               description:
                   'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
             ),
-            horizontalSpace(50),
-            const MobileMySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Teaching',
-              description:
-                  'I love teaching people stuff, I have\nbeen teaching for more than 7 years now\nand I love it, I make content on youTube\nonly and my content is free.',
-            ),
           ],
+        ),
+        verticalSpace(20),
+        const MobileMySkills(
+          image: 'assets/images/mobile.png',
+          title: 'Teaching',
+          description:
+              'I love teaching people stuff, I have\nbeen teaching for more than 7 years now\nand I love it, I make content on youTube\nonly and my content is free.',
         ),
       ],
     );

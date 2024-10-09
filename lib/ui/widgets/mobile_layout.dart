@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:personal_website_flutter/ui/widgets/hello_lets_talk.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_hello_lets_talk.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_my_image.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_sections.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_services_page.dart';
-import 'package:personal_website_flutter/ui/widgets/my_image.dart';
-import 'package:personal_website_flutter/ui/widgets/sections_and_menu.dart';
 
 import '../../core/helpers/spacing.dart';
 import '../pages/hobbies_page.dart';
 import '../pages/portfolio_page.dart';
-import '../pages/services_page.dart';
 import 'lets_talk.dart';
 
 class MobileLayout extends StatelessWidget {
