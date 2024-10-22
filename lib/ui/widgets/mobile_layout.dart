@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_hello_lets_talk.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_my_image.dart';
+import 'package:personal_website_flutter/ui/widgets/mobile_portfolio_page.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_sections.dart';
 import 'package:personal_website_flutter/ui/widgets/mobile_services_page.dart';
 
@@ -20,13 +21,14 @@ class MobileLayout extends StatelessWidget {
           EdgeInsetsDirectional.symmetric(horizontal: 100.w, vertical: 50.h),
       child: Column(
         children: [
-          const Stack(
+          Stack(
             alignment: Alignment.center,
             children: [
               Column(
                 children: [
-                  MobileSections(),
-                  Row(
+                  const MobileSections(),
+                  verticalSpace(50),
+                  const Row(
                     children: [
                       MobileHelloLetsTalk(),
                       MobileMyImage(),
@@ -39,7 +41,7 @@ class MobileLayout extends StatelessWidget {
           verticalSpace(60),
           const MobileServicesPage(),
           verticalSpace(150),
-          const PortfolioPage(),
+          const MobilePortfolioPage(),
           verticalSpace(150),
           const HobbiesPage(),
           verticalSpace(150),

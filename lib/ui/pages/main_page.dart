@@ -11,11 +11,9 @@ class MainPage extends StatelessWidget {
       body: SingleChildScrollView(
         child: LayoutBuilder(
           builder: (context, constraints) {
-            if (constraints.maxWidth < 600) {
-              // Layout for mobile
+            if (constraints.maxWidth < 1000) {
               return const MobileLayout();
             } else {
-              // Layout for larger screens (tablet or desktop)
               return const DesktopLayout();
             }
           },

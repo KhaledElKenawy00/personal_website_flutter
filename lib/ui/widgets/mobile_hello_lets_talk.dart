@@ -36,6 +36,7 @@ class MobileHelloLetsTalk extends StatelessWidget {
               borderRadius: BorderRadius.circular(100.r),
             ),
             padding: EdgeInsets.symmetric(horizontal: 30.w, vertical: 10.h),
+            textStyle: TextStyles.font20WhiteMedium,
           ),
           onPressed: () {
             Scrollable.ensureVisible(

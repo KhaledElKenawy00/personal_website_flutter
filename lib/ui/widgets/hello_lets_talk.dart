@@ -32,12 +32,12 @@ class HelloLetsTalk extends StatelessWidget {
           verticalSpace(50),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-              backgroundColor: ColorsManager.mainPurple,
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(100.r),
-              ),
-              padding: EdgeInsets.symmetric(horizontal: 50.w, vertical: 20.h),
-            ),
+                backgroundColor: ColorsManager.mainPurple,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(100.r),
+                ),
+                padding: EdgeInsets.symmetric(horizontal: 50.w, vertical: 20.h),
+                textStyle: TextStyles.font24WhiteMedium),
             onPressed: () {
               Scrollable.ensureVisible(
                 GlobalKeys.letsTalkKey.currentContext!,

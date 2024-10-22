@@ -28,7 +28,7 @@ class MobileMySkills extends StatelessWidget {
               width: 50.w,
               image: AssetImage(image),
             ),
-            horizontalSpace(10),
+            horizontalSpace(14),
             Text(
               title,
               style: TextStyles.font20WhiteMedium,
