@@ -13,8 +13,8 @@ class MobileSections extends StatelessWidget {
     return Row(
       children: [
         Image(
-          width: 80.w,
-          height: 80.h,
+          width: 90.w,
+          height: 90.h,
           image: const AssetImage('assets/images/name_logo.png'),
         ),
         horizontalSpace(100),
@@ -32,7 +32,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'About',
-                  style: TextStyles.font24WhiteMedium,
+                  style: TextStyles.font48WhiteMedium,
                 ),
               ),
               InkWell(
@@ -45,7 +45,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'Services',
-                  style: TextStyles.font24WhiteMedium,
+                  style: TextStyles.font48WhiteMedium,
                 ),
               ),
               InkWell(
@@ -58,7 +58,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'Portfolio',
-                  style: TextStyles.font24WhiteMedium,
+                  style: TextStyles.font48WhiteMedium,
                 ),
               ),
               InkWell(
@@ -71,7 +71,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'Hobbies',
-                  style: TextStyles.font24WhiteMedium,
+                  style: TextStyles.font48WhiteMedium,
                 ),
               ),
             ],

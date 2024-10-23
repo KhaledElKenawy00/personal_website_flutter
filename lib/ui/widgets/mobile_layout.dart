@@ -17,7 +17,7 @@ class MobileLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding:
-          EdgeInsetsDirectional.symmetric(horizontal: 100.w, vertical: 50.h),
+          EdgeInsetsDirectional.symmetric(horizontal: 100.w, vertical: 20.h),
       child: Column(
         children: [
           Stack(
