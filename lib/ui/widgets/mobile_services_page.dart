@@ -18,7 +18,7 @@ class MobileServicesPage extends StatelessWidget {
       children: [
         Text(
           'Services',
-          style: TextStyles.font18WhiteRegular,
+          style: TextStyles.font48WhiteRegular,
         ),
         Divider(
           color: ColorsManager.mainPurple,
@@ -29,7 +29,7 @@ class MobileServicesPage extends StatelessWidget {
         Text(
           'What actually I love to do',
           textAlign: TextAlign.start,
-          style: TextStyles.font26WhiteBold,
+          style: TextStyles.font64WhiteBold,
         ),
         verticalSpace(20),
         Row(
@@ -40,7 +40,7 @@ class MobileServicesPage extends StatelessWidget {
               description:
                   'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
             ),
-            horizontalSpace(100),
+            horizontalSpace(200),
             const MobileMySkills(
               image: 'assets/images/mobile.png',
               title: 'Project Management',
@@ -49,7 +49,7 @@ class MobileServicesPage extends StatelessWidget {
             ),
           ],
         ),
-        verticalSpace(20),
+        verticalSpace(50),
         const MobileMySkills(
           image: 'assets/images/mobile.png',
           title: 'Teaching',

@@ -20,7 +20,7 @@ class MobilePortfolioPage extends StatelessWidget {
         children: [
           Text(
             'Portfolio',
-            style: TextStyles.font18WhiteRegular,
+            style: TextStyles.font48WhiteRegular,
           ),
           verticalSpace(4),
           Divider(

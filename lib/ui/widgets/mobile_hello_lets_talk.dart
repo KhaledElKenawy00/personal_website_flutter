@@ -35,7 +35,6 @@ class MobileHelloLetsTalk extends StatelessWidget {
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(100.r),
             ),
-            //padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 4.h),
           ),
           onPressed: () {
             Scrollable.ensureVisible(
@@ -46,8 +45,7 @@ class MobileHelloLetsTalk extends StatelessWidget {
           },
           child: Text(
             'Let’s Talk',
-            //style: TextStyles.font48WhiteMedium,
-            style: TextStyle(color: Colors.amber, fontSize: 48.sp),
+            style: TextStyles.font48WhiteMedium,
           ),
         )
       ],

@@ -25,20 +25,20 @@ class MobileMySkills extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image(
-              width: 50.w,
+              width: 100.w,
               image: AssetImage(image),
             ),
-            horizontalSpace(14),
+            horizontalSpace(24),
             Text(
               title,
-              style: TextStyles.font20WhiteMedium,
+              style: TextStyles.font48WhiteMedium,
             ),
           ],
         ),
         verticalSpace(10),
         Text(
           description,
-          style: TextStyles.font16WhiteRegular,
+          style: TextStyles.font48WhiteRegular,
           textAlign: TextAlign.start,
         ),
       ],
