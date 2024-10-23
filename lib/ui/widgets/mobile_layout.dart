@@ -37,15 +37,15 @@ class MobileLayout extends StatelessWidget {
               ),
             ],
           ),
-          verticalSpace(150),
+          verticalSpace(100),
           const MobileServicesPage(),
-          verticalSpace(150),
+          verticalSpace(100),
           const MobilePortfolioPage(),
-          verticalSpace(150),
+          verticalSpace(100),
           const HobbiesPage(),
-          verticalSpace(150),
+          verticalSpace(100),
           const LetsTalk(),
-          verticalSpace(500)
+          //verticalSpace(500)
         ],
       ),
     );
