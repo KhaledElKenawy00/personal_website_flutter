@@ -25,15 +25,15 @@ class MobileHobbiesPage extends StatelessWidget {
         Divider(
           color: ColorsManager.mainPurple,
           thickness: 2,
-          endIndent: 1000.w,
+          endIndent: 1100.w,
         ),
-        verticalSpace(50),
+        verticalSpace(20),
         Text(
           'What I love to do in my free time',
           textAlign: TextAlign.start,
-          style: TextStyles.font48WhiteBold,
+          style: TextStyles.font60WhiteBold,
         ),
-        verticalSpace(70),
+        verticalSpace(40),
         Row(
           children: [
             const MobileSingleHobby(

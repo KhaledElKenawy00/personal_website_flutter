@@ -19,7 +19,7 @@ class MobileLetsTalk extends StatelessWidget {
         child: Column(
           children: [
             Text('Let\'s Talk', style: TextStyles.font52WhiteMedium),
-            verticalSpace(40),
+            verticalSpace(20),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -29,14 +29,14 @@ class MobileLetsTalk extends StatelessWidget {
                   },
                   child: setupIconStack('assets/svgs/linkedin.svg'),
                 ),
-                horizontalSpace(14),
+                horizontalSpace(30),
                 InkWell(
                   onTap: () {
                     _launchUrl('https://www.instagram.com/omarahmedx14/');
                   },
                   child: setupIconStack('assets/svgs/instagram.svg'),
                 ),
-                horizontalSpace(14),
+                horizontalSpace(30),
                 InkWell(
                   onTap: () {
                     _launchUrl('https://www.youtube.com/@OmarAhmedx14');

@@ -47,6 +47,7 @@ class MobileLayout extends StatelessWidget {
           const MobileHobbiesPage(),
           verticalSpace(120),
           const MobileLetsTalk(),
+          verticalSpace(50)
         ],
       ),
     );

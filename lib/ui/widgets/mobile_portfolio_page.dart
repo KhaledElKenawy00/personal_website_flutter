@@ -26,19 +26,19 @@ class MobilePortfolioPage extends StatelessWidget {
           Divider(
             color: ColorsManager.mainPurple,
             thickness: 2,
-            endIndent: 1000.w,
+            endIndent: 1100.w,
           ),
-          verticalSpace(40),
+          verticalSpace(20),
           Row(
             children: [
               Text(
                 'My Latest Projects',
                 textAlign: TextAlign.start,
-                style: TextStyles.font48WhiteBold,
+                style: TextStyles.font60WhiteBold,
               ),
             ],
           ),
-          verticalSpace(70),
+          verticalSpace(40),
           Container(
             width: double.infinity,
             height: 300.h,
@@ -50,7 +50,7 @@ class MobilePortfolioPage extends StatelessWidget {
               ),
             ),
           ),
-          verticalSpace(50),
+          verticalSpace(30),
           Container(
             width: double.infinity,
             height: 300.h,

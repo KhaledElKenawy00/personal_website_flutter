@@ -25,8 +25,8 @@ class MobileSingleHobby extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 170.w,
-      height: 170.h,
+      width: 300.w,
+      height: 150.h,
       decoration: BoxDecoration(
         color: hobbyContainerColor,
         borderRadius: BorderRadius.circular(20.r),
