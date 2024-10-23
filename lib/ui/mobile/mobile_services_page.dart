@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:personal_website_flutter/ui/widgets/mobile_my_skills.dart';
+import 'package:personal_website_flutter/ui/mobile/mobile_my_skills.dart';
 
 import '../../core/helpers/global_keys.dart';
 import '../../core/helpers/spacing.dart';

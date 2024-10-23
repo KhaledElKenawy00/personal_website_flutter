@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:personal_website_flutter/ui/widgets/single_hobby.dart';
+import 'package:personal_website_flutter/ui/web/single_hobby.dart';
 
 import '../../core/helpers/global_keys.dart';
 import '../../core/helpers/spacing.dart';

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import '../../core/helpers/spacing.dart';
-import '../../core/theming/styles.dart';
 
 class MobileSingleHobby extends StatelessWidget {
   final Color hobbyContainerColor;
@@ -52,11 +50,11 @@ class MobileSingleHobby extends StatelessWidget {
                   width: iconWidth.w,
                   height: iconHeight.h,
                 ),
-          verticalSpace(10),
-          Text(
-            hobbyName,
-            style: TextStyles.font36BlackMedium,
-          ),
+          // verticalSpace(10),
+          // Text(
+          //   hobbyName,
+          //   style: TextStyles.font36BlackMedium,
+          // ),
         ],
       ),
     );

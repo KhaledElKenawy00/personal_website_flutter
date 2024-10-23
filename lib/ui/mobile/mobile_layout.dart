@@ -1,14 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:personal_website_flutter/ui/widgets/mobile_hello_lets_talk.dart';
-import 'package:personal_website_flutter/ui/widgets/mobile_my_image.dart';
-import 'package:personal_website_flutter/ui/widgets/mobile_portfolio_page.dart';
-import 'package:personal_website_flutter/ui/widgets/mobile_sections.dart';
-import 'package:personal_website_flutter/ui/widgets/mobile_services_page.dart';
+import 'package:personal_website_flutter/ui/mobile/mobile_hello_lets_talk.dart';
+import 'package:personal_website_flutter/ui/mobile/mobile_my_image.dart';
+import 'package:personal_website_flutter/ui/mobile/mobile_portfolio_page.dart';
+import 'package:personal_website_flutter/ui/mobile/mobile_sections.dart';
+import 'package:personal_website_flutter/ui/mobile/mobile_services_page.dart';
 
 import '../../core/helpers/spacing.dart';
-import '../pages/hobbies_page.dart';
-import 'lets_talk.dart';
 import 'mobile_hobbies_page.dart';
 import 'mobile_lets_talk.dart';
 

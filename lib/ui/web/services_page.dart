@@ -5,7 +5,7 @@ import '../../core/helpers/global_keys.dart';
 import '../../core/helpers/spacing.dart';
 import '../../core/theming/colors.dart';
 import '../../core/theming/styles.dart';
-import '../widgets/my_skills.dart';
+import 'my_skills.dart';
 
 class ServicesPage extends StatelessWidget {
   const ServicesPage({super.key});

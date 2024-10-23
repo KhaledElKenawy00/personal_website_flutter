@@ -6,7 +6,6 @@ import '../../core/helpers/spacing.dart';
 import '../../core/theming/colors.dart';
 import '../../core/theming/styles.dart';
 import 'mobile_single_hobby.dart';
-import 'single_hobby.dart';
 
 class MobileHobbiesPage extends StatelessWidget {
   const MobileHobbiesPage({super.key});
@@ -35,6 +34,7 @@ class MobileHobbiesPage extends StatelessWidget {
         ),
         verticalSpace(40),
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const MobileSingleHobby(
               hobbyContainerColor: ColorsManager.lightBlue,
@@ -48,8 +48,8 @@ class MobileHobbiesPage extends StatelessWidget {
               hobbyIcon: 'assets/images/killua.png',
               hobbyName: 'Anime',
               shadowColor: ColorsManager.pink,
-              iconHeight: 110,
-              iconWidth: 110,
+              iconHeight: 130,
+              iconWidth: 130,
             ),
             horizontalSpace(80),
             const MobileSingleHobby(
@@ -64,15 +64,15 @@ class MobileHobbiesPage extends StatelessWidget {
         ),
         verticalSpace(50),
         Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const MobileSingleHobby(
               hobbyContainerColor: ColorsManager.lightPink,
               hobbyIcon: 'assets/images/yasuo.png',
               hobbyName: 'Gaming',
               shadowColor: ColorsManager.pink,
-              iconWidth: 120,
-              iconHeight: 120,
+              iconWidth: 150,
+              iconHeight: 150,
             ),
             horizontalSpace(80),
             const MobileSingleHobby(

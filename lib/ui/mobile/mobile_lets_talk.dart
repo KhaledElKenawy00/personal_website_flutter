@@ -28,21 +28,21 @@ class MobileLetsTalk extends StatelessWidget {
                 onTap: () {
                   _launchUrl('https://www.linkedin.com/in/omarahmedx14/');
                 },
-                child: setupIconStack('assets/svgs/linkedin.svg'),
+                child: setupIconStack('assets/images/linkedin.png'),
               ),
               horizontalSpace(50),
               InkWell(
                 onTap: () {
                   _launchUrl('https://www.instagram.com/omarahmedx14/');
                 },
-                child: setupIconStack('assets/svgs/instagram.svg'),
+                child: setupIconStack('assets/images/instagram.png'),
               ),
               horizontalSpace(50),
               InkWell(
                 onTap: () {
-                  _launchUrl('https://www.youtube.com/@OmarAhmedx14');
+                  _launchUrl('https://www.facebook.com/omarahmedxx14');
                 },
-                child: setupIconStack('assets/svgs/youtube.svg'),
+                child: setupIconStack('assets/images/facebook.png'),
               ),
             ],
           ),
@@ -64,15 +64,10 @@ class MobileLetsTalk extends StatelessWidget {
       alignment: Alignment.center,
       children: [
         buildIconBackground(),
-        SvgPicture.asset(
+        Image.asset(
           iconPath,
           width: 50.w,
           height: 50.h,
-          //color: Colors.white,
-          // colorFilter: const ColorFilter.mode(
-          //   Colors.white,
-          //   BlendMode.srcIn,
-          // ),
         ),
       ],
     );

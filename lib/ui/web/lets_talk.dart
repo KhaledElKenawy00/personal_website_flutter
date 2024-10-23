@@ -27,21 +27,21 @@ class LetsTalk extends StatelessWidget {
                   onTap: () {
                     _launchUrl('https://www.linkedin.com/in/omarahmedx14/');
                   },
-                  child: setupIconStack('assets/svgs/linkedin.svg'),
+                  child: setupIconStack('assets/images/linkedin.png'),
                 ),
                 horizontalSpace(4),
                 InkWell(
                   onTap: () {
                     _launchUrl('https://www.instagram.com/omarahmedx14/');
                   },
-                  child: setupIconStack('assets/svgs/instagram.svg'),
+                  child: setupIconStack('assets/images/instagram.png'),
                 ),
                 horizontalSpace(4),
                 InkWell(
                   onTap: () {
-                    _launchUrl('https://www.youtube.com/@OmarAhmedx14');
+                    _launchUrl('https://www.facebook.com/omarahmedxx14');
                   },
-                  child: setupIconStack('assets/svgs/youtube.svg'),
+                  child: setupIconStack('assets/images/facebook.png'),
                 ),
               ],
             ),
@@ -54,8 +54,8 @@ class LetsTalk extends StatelessWidget {
   buildIconBackground() {
     return Image.asset(
       'assets/images/icon_bg.png',
-      width: 60.w,
-      height: 60.h,
+      width: 80.w,
+      height: 80.h,
     );
   }
 
@@ -64,14 +64,10 @@ class LetsTalk extends StatelessWidget {
       alignment: Alignment.center,
       children: [
         buildIconBackground(),
-        SvgPicture.asset(
+        Image.asset(
           iconPath,
-          width: 30.w,
-          height: 30.h,
-          colorFilter: const ColorFilter.mode(
-            Colors.white,
-            BlendMode.srcIn,
-          ),
+          width: 50.w,
+          height: 50.h,
         ),
       ],
     );

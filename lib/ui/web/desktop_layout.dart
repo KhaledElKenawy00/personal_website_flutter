@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../core/helpers/spacing.dart';
-import '../pages/hobbies_page.dart';
-import '../pages/portfolio_page.dart';
-import '../pages/services_page.dart';
 import 'hello_lets_talk.dart';
+import 'hobbies_page.dart';
 import 'lets_talk.dart';
 import 'my_image.dart';
+import 'portfolio_page.dart';
 import 'sections_and_menu.dart';
+import 'services_page.dart';
 
 class DesktopLayout extends StatelessWidget {
   const DesktopLayout({super.key});
