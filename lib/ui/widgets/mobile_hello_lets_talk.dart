@@ -46,9 +46,8 @@ class MobileHelloLetsTalk extends StatelessWidget {
           },
           child: Text(
             'Let’s Talk',
-            style: TextStyles.font48WhiteMedium.copyWith(
-              color: Colors.red,
-            ),
+            //style: TextStyles.font48WhiteMedium,
+            style: TextStyle(color: Colors.amber, fontSize: 48.sp),
           ),
         )
       ],
