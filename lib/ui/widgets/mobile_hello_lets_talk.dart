@@ -17,25 +17,25 @@ class MobileHelloLetsTalk extends StatelessWidget {
       children: [
         Text(
           'Hello,',
-          style: TextStyles.font36WhiteMedium,
+          style: TextStyles.font52WhiteMedium,
         ),
         Text(
           'Omar Ahmed',
-          style: TextStyles.font64WhiteBold,
+          style: TextStyles.font80WhiteBold,
         ),
         verticalSpace(4),
         Text(
           'Mobile Tech Lead',
-          style: TextStyles.font36LightgreyRegular,
+          style: TextStyles.font52LightgreyRegular,
         ),
         verticalSpace(50),
         ElevatedButton(
           style: ElevatedButton.styleFrom(
             backgroundColor: ColorsManager.mainPurple,
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(20.r),
+              borderRadius: BorderRadius.circular(100.r),
             ),
-            padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 4.h),
+            //padding: EdgeInsets.symmetric(horizontal: 10.w, vertical: 4.h),
           ),
           onPressed: () {
             Scrollable.ensureVisible(
@@ -46,7 +46,7 @@ class MobileHelloLetsTalk extends StatelessWidget {
           },
           child: Text(
             'Let’s Talk',
-            style: TextStyles.font36WhiteMedium,
+            style: TextStyles.font48WhiteMedium,
           ),
         )
       ],
