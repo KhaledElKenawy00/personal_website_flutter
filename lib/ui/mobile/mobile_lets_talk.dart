@@ -53,8 +53,8 @@ class MobileLetsTalk extends StatelessWidget {
   buildIconBackground() {
     return Image.asset(
       'assets/images/icon_bg.png',
-      width: 100.w,
-      height: 100.h,
+      width: 140.w,
+      height: 140.h,
     );
   }
 
@@ -65,8 +65,8 @@ class MobileLetsTalk extends StatelessWidget {
         buildIconBackground(),
         Image.asset(
           iconPath,
-          width: 80.w,
-          height: 80.h,
+          width: 120.w,
+          height: 120.h,
         ),
       ],
     );
