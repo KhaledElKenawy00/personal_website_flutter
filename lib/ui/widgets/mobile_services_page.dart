@@ -18,36 +18,32 @@ class MobileServicesPage extends StatelessWidget {
       children: [
         Text(
           'Services',
-          style: TextStyles.font48WhiteRegular,
+          style: TextStyles.font64WhiteRegular,
         ),
         Divider(
           color: ColorsManager.mainPurple,
           thickness: 2,
-          endIndent: 1190.w,
+          endIndent: 1100.w,
         ),
-        verticalSpace(10),
+        verticalSpace(20),
         Text(
           'What actually I love to do',
           textAlign: TextAlign.start,
-          style: TextStyles.font64WhiteBold,
+          style: TextStyles.font48WhiteBold,
         ),
-        verticalSpace(20),
-        Row(
-          children: [
-            const MobileMySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Mobile Development',
-              description:
-                  'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
-            ),
-            horizontalSpace(200),
-            const MobileMySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Project Management',
-              description:
-                  'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
-            ),
-          ],
+        verticalSpace(70),
+        const MobileMySkills(
+          image: 'assets/images/mobile.png',
+          title: 'Mobile Development',
+          description:
+              'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
+        ),
+        verticalSpace(50),
+        const MobileMySkills(
+          image: 'assets/images/mobile.png',
+          title: 'Project Management',
+          description:
+              'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
         ),
         verticalSpace(50),
         const MobileMySkills(

@@ -37,7 +37,7 @@ class MobileLayout extends StatelessWidget {
               ),
             ],
           ),
-          verticalSpace(60),
+          verticalSpace(150),
           const MobileServicesPage(),
           verticalSpace(150),
           const MobilePortfolioPage(),
