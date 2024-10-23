@@ -19,24 +19,24 @@ class MobileMySkills extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.center,
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Row(
           crossAxisAlignment: CrossAxisAlignment.center,
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Image(
               width: 100.w,
               image: AssetImage(image),
             ),
-            horizontalSpace(36),
+            horizontalSpace(40),
             Text(
               title,
               style: TextStyles.font48WhiteMedium,
             ),
           ],
         ),
-        verticalSpace(10),
+        verticalSpace(14),
         Text(
           description,
           style: TextStyles.font48WhiteRegular,

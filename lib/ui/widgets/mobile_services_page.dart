@@ -26,29 +26,32 @@ class MobileServicesPage extends StatelessWidget {
           endIndent: 1100.w,
         ),
         verticalSpace(70),
-        Column(
-          children: [
-            const MobileMySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Mobile Development',
-              description:
-                  'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
-            ),
-            verticalSpace(60),
-            const MobileMySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Project Management',
-              description:
-                  'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
-            ),
-            verticalSpace(60),
-            const MobileMySkills(
-              image: 'assets/images/mobile.png',
-              title: 'Teaching',
-              description:
-                  'I love teaching people stuff, I have\nbeen teaching for more than 7 years now\nand I love it, I make content on youTube\nonly and my content is free.',
-            ),
-          ],
+        Padding(
+          padding: EdgeInsetsDirectional.only(start: 150.w),
+          child: Column(
+            children: [
+              const MobileMySkills(
+                image: 'assets/images/mobile.png',
+                title: 'Mobile Development',
+                description:
+                    'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
+              ),
+              verticalSpace(60),
+              const MobileMySkills(
+                image: 'assets/images/mobile.png',
+                title: 'Project Management',
+                description:
+                    'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
+              ),
+              verticalSpace(60),
+              const MobileMySkills(
+                image: 'assets/images/mobile.png',
+                title: 'Teaching',
+                description:
+                    'I love teaching people stuff, I have\nbeen teaching for more than 7 years now\nand I love it, I make content on youTube\nonly and my content is free.',
+              ),
+            ],
+          ),
         )
       ],
     );
