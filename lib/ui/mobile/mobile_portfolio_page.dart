@@ -24,7 +24,7 @@ class MobilePortfolioPage extends StatelessWidget {
         Divider(
           color: ColorsManager.mainPurple,
           thickness: 2,
-          endIndent: 1000.w,
+          endIndent: 1100.w,
         ),
         verticalSpace(20),
         Row(

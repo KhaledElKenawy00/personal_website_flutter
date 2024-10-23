@@ -66444,11 +66444,11 @@ R(a){var s=null,r=100*$.I().ga9(),q=20*$.I().ga4(),p=t.p
 return new A.dP(new A.cu(r,q,r,q),A.dz(A.a([A.jx(B.U,A.a([A.dz(A.a([B.Ix,A.au(s,50*$.I().ga4(),s),B.KG],p),B.K,s,B.z)],p),B.bc),A.au(s,120*$.I().ga4(),s),B.Iy,A.au(s,120*$.I().ga4(),s),B.Iw,A.au(s,120*$.I().ga4(),s),B.Ip,A.au(s,120*$.I().ga4(),s),B.Ir,A.au(s,50*$.I().ga4(),s)],p),B.K,s,B.z),s)}}
 A.Ey.prototype={
 R(a){var s=this,r=null,q=$.Qa(),p=t.p
-return A.Bl(A.dz(A.a([A.bA("Let's Talk",$.amX(),r),A.au(r,20*$.I().ga4(),r),A.e4(A.a([A.eh(!1,!0,s.ko("assets/images/linkedin.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XU(s),r,r,r,r),A.au(r,r,50*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/instagram.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XV(s),r,r,r,r),A.au(r,r,50*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/facebook.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XW(s),r,r,r,r)],p),B.K,B.bS,B.X)],p),B.K,r,B.z),r,q,r)},
+return A.Bl(A.dz(A.a([A.bA("Let's Talk",$.amX(),r),A.au(r,10*$.I().ga4(),r),A.e4(A.a([A.eh(!1,!0,s.ko("assets/images/linkedin.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XU(s),r,r,r,r),A.au(r,r,50*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/instagram.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XV(s),r,r,r,r),A.au(r,r,50*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/facebook.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XW(s),r,r,r,r)],p),B.K,B.bS,B.X)],p),B.K,r,B.z),r,q,r)},
 ko(a){var s,r=$.I().ga9()
-r=A.ua("assets/images/icon_bg.png",60*$.I().ga4(),60*r)
+r=A.ua("assets/images/icon_bg.png",100*$.I().ga4(),100*r)
 s=$.I().ga9()
-return A.jx(B.U,A.a([r,A.ua(a,50*$.I().ga4(),50*s)],t.p),B.bc)},
+return A.jx(B.U,A.a([r,A.ua(a,80*$.I().ga4(),80*s)],t.p),B.bc)},
 me(a){return this.YC(a)},
 YC(a){var s=0,r=A.O(t.H),q
 var $async$me=A.P(function(b,c){if(b===1)return A.L(c,r)
@@ -66500,7 +66500,7 @@ A.p8.prototype={
 R(a){var s=null,r=t.p
 return A.dz(A.a([A.e4(A.a([A.mg(s,new A.fx("assets/images/mobile.png",s,s),100*$.I().ga9()),A.au(s,s,40*$.I().ga9()),A.bA(this.d,$.abG(),s)],r),B.K,B.z,B.X),A.au(s,14*$.I().ga4(),s),A.bA(this.e,$.amU(),B.a6)],r),B.af,s,B.z)}}
 A.Ez.prototype={
-R(a){var s,r,q=null,p=$.Qb(),o=A.bA("Portfolio",$.abI(),q),n=A.au(q,4*$.I().ga4(),q),m=A.tm(B.bj,1000*$.I().ga9(),2),l=A.au(q,20*$.I().ga4(),q),k=t.p,j=A.e4(A.a([A.bA("My Latest Projects",$.abH(),B.a6)],k),B.K,B.z,B.X),i=A.au(q,40*$.I().ga4(),q),h=$.I().ga4(),g=$.I()
+R(a){var s,r,q=null,p=$.Qb(),o=A.bA("Portfolio",$.abI(),q),n=A.au(q,4*$.I().ga4(),q),m=A.tm(B.bj,1100*$.I().ga9(),2),l=A.au(q,20*$.I().ga4(),q),k=t.p,j=A.e4(A.a([A.bA("My Latest Projects",$.abH(),B.a6)],k),B.K,B.z,B.X),i=A.au(q,40*$.I().ga4(),q),h=$.I().ga4(),g=$.I()
 h=A.hZ(q,q,q,new A.dy(q,B.kU,q,A.h6(20*Math.min(g.ga9(),g.ga4())),q,q,B.ad),300*h,q,q,1/0)
 g=A.au(q,30*$.I().ga4(),q)
 s=$.I().ga4()

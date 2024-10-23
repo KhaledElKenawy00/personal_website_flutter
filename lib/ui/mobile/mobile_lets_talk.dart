@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/helpers/global_keys.dart';
@@ -20,7 +19,7 @@ class MobileLetsTalk extends StatelessWidget {
             'Let\'s Talk',
             style: TextStyles.font64WhiteMedium,
           ),
-          verticalSpace(20),
+          verticalSpace(10),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -54,8 +53,8 @@ class MobileLetsTalk extends StatelessWidget {
   buildIconBackground() {
     return Image.asset(
       'assets/images/icon_bg.png',
-      width: 60.w,
-      height: 60.h,
+      width: 100.w,
+      height: 100.h,
     );
   }
 
@@ -66,8 +65,8 @@ class MobileLetsTalk extends StatelessWidget {
         buildIconBackground(),
         Image.asset(
           iconPath,
-          width: 50.w,
-          height: 50.h,
+          width: 80.w,
+          height: 80.h,
         ),
       ],
     );
