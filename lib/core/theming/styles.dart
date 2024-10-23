@@ -35,6 +35,12 @@ class TextStyles {
     color: Colors.white,
   );
 
+   static TextStyle font64WhiteMedium = TextStyle(
+    fontSize: 64.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: Colors.white,
+  );
+
   static TextStyle font60WhiteBold = TextStyle(
     fontSize: 60.sp,
     fontWeight: FontWeightHelper.bold,
@@ -121,6 +127,12 @@ class TextStyles {
 
   static TextStyle font18BlackMedium = TextStyle(
     fontSize: 18.sp,
+    fontWeight: FontWeightHelper.medium,
+    color: Colors.black,
+  );
+
+    static TextStyle font36BlackMedium = TextStyle(
+    fontSize: 36.sp,
     fontWeight: FontWeightHelper.medium,
     color: Colors.black,
   );

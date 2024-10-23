@@ -42,7 +42,7 @@ class MobileHobbiesPage extends StatelessWidget {
               hobbyName: 'Gym',
               shadowColor: ColorsManager.pink,
             ),
-            horizontalSpace(50),
+            horizontalSpace(80),
             const MobileSingleHobby(
               hobbyContainerColor: ColorsManager.lightPink,
               hobbyIcon: 'assets/images/killua.png',
@@ -51,7 +51,7 @@ class MobileHobbiesPage extends StatelessWidget {
               iconHeight: 110,
               iconWidth: 110,
             ),
-            horizontalSpace(50),
+            horizontalSpace(80),
             const MobileSingleHobby(
               hobbyContainerColor: ColorsManager.lightBlue,
               hobbyIcon: 'assets/svgs/football.svg',
@@ -64,14 +64,17 @@ class MobileHobbiesPage extends StatelessWidget {
         ),
         verticalSpace(50),
         Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             const MobileSingleHobby(
               hobbyContainerColor: ColorsManager.lightPink,
               hobbyIcon: 'assets/images/yasuo.png',
               hobbyName: 'Gaming',
               shadowColor: ColorsManager.pink,
+              iconWidth: 120,
+              iconHeight: 120,
             ),
-            horizontalSpace(50),
+            horizontalSpace(80),
             const MobileSingleHobby(
               hobbyContainerColor: ColorsManager.lightBlue,
               hobbyIcon: 'assets/svgs/youtube.svg',

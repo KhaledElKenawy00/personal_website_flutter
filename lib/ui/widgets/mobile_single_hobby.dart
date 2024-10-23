@@ -55,7 +55,7 @@ class MobileSingleHobby extends StatelessWidget {
           verticalSpace(10),
           Text(
             hobbyName,
-            style: TextStyles.font18BlackMedium,
+            style: TextStyles.font36BlackMedium,
           ),
         ],
       ),

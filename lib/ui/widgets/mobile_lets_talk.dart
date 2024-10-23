@@ -12,41 +12,41 @@ class MobileLetsTalk extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
+    return Center(
       key: GlobalKeys.letsTalkKey,
-      padding: EdgeInsetsDirectional.only(end: 165.w),
-      child: Center(
-        child: Column(
-          children: [
-            Text('Let\'s Talk', style: TextStyles.font52WhiteMedium),
-            verticalSpace(20),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                InkWell(
-                  onTap: () {
-                    _launchUrl('https://www.linkedin.com/in/omarahmedx14/');
-                  },
-                  child: setupIconStack('assets/svgs/linkedin.svg'),
-                ),
-                horizontalSpace(30),
-                InkWell(
-                  onTap: () {
-                    _launchUrl('https://www.instagram.com/omarahmedx14/');
-                  },
-                  child: setupIconStack('assets/svgs/instagram.svg'),
-                ),
-                horizontalSpace(30),
-                InkWell(
-                  onTap: () {
-                    _launchUrl('https://www.youtube.com/@OmarAhmedx14');
-                  },
-                  child: setupIconStack('assets/svgs/youtube.svg'),
-                ),
-              ],
-            ),
-          ],
-        ),
+      child: Column(
+        children: [
+          Text(
+            'Let\'s Talk',
+            style: TextStyles.font64WhiteMedium,
+          ),
+          verticalSpace(20),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              InkWell(
+                onTap: () {
+                  _launchUrl('https://www.linkedin.com/in/omarahmedx14/');
+                },
+                child: setupIconStack('assets/svgs/linkedin.svg'),
+              ),
+              horizontalSpace(50),
+              InkWell(
+                onTap: () {
+                  _launchUrl('https://www.instagram.com/omarahmedx14/');
+                },
+                child: setupIconStack('assets/svgs/instagram.svg'),
+              ),
+              horizontalSpace(50),
+              InkWell(
+                onTap: () {
+                  _launchUrl('https://www.youtube.com/@OmarAhmedx14');
+                },
+                child: setupIconStack('assets/svgs/youtube.svg'),
+              ),
+            ],
+          ),
+        ],
       ),
     );
   }
@@ -66,9 +66,9 @@ class MobileLetsTalk extends StatelessWidget {
         buildIconBackground(),
         SvgPicture.asset(
           iconPath,
-          width: 30.w,
-          height: 30.h,
-          color: Colors.white,
+          width: 50.w,
+          height: 50.h,
+          //color: Colors.white,
           // colorFilter: const ColorFilter.mode(
           //   Colors.white,
           //   BlendMode.srcIn,
