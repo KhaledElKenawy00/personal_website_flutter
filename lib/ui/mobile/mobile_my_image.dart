@@ -7,8 +7,7 @@ class MobileMyImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsetsDirectional.only(top: 170.h, end: 170.w),
+    return Expanded(
       child: Row(
         children: [
           const Spacer(),
@@ -20,10 +19,10 @@ class MobileMyImage extends StatelessWidget {
             child: ClipRRect(
               borderRadius: BorderRadius.circular(16.r),
               child: Image(
-                width: 300.w,
-                height: 450.h,
+                width: 500.w,
+                height: 250.h,
                 fit: BoxFit.cover,
-                image: const AssetImage('assets/images/batman.jpeg'),
+                image: const AssetImage('assets/images/joker.jpeg'),
               ),
             ),
           ),
