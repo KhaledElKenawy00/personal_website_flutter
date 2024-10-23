@@ -29,14 +29,14 @@ class MobileLetsTalk extends StatelessWidget {
                 },
                 child: setupIconStack('assets/images/linkedin.png'),
               ),
-              horizontalSpace(50),
+              horizontalSpace(80),
               InkWell(
                 onTap: () {
                   _launchUrl('https://www.instagram.com/omarahmedx14/');
                 },
                 child: setupIconStack('assets/images/instagram.png'),
               ),
-              horizontalSpace(50),
+              horizontalSpace(80),
               InkWell(
                 onTap: () {
                   _launchUrl('https://www.facebook.com/omarahmedxx14');

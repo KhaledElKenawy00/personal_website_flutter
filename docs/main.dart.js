@@ -66444,7 +66444,7 @@ R(a){var s=null,r=100*$.I().ga9(),q=20*$.I().ga4(),p=t.p
 return new A.dP(new A.cu(r,q,r,q),A.dz(A.a([A.jx(B.U,A.a([A.dz(A.a([B.Ix,A.au(s,50*$.I().ga4(),s),B.KG],p),B.K,s,B.z)],p),B.bc),A.au(s,120*$.I().ga4(),s),B.Iy,A.au(s,120*$.I().ga4(),s),B.Iw,A.au(s,120*$.I().ga4(),s),B.Ip,A.au(s,120*$.I().ga4(),s),B.Ir,A.au(s,50*$.I().ga4(),s)],p),B.K,s,B.z),s)}}
 A.Ey.prototype={
 R(a){var s=this,r=null,q=$.Qa(),p=t.p
-return A.Bl(A.dz(A.a([A.bA("Let's Talk",$.amX(),r),A.au(r,10*$.I().ga4(),r),A.e4(A.a([A.eh(!1,!0,s.ko("assets/images/linkedin.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XU(s),r,r,r,r),A.au(r,r,50*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/instagram.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XV(s),r,r,r,r),A.au(r,r,50*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/facebook.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XW(s),r,r,r,r)],p),B.K,B.bS,B.X)],p),B.K,r,B.z),r,q,r)},
+return A.Bl(A.dz(A.a([A.bA("Let's Talk",$.amX(),r),A.au(r,10*$.I().ga4(),r),A.e4(A.a([A.eh(!1,!0,s.ko("assets/images/linkedin.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XU(s),r,r,r,r),A.au(r,r,80*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/instagram.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XV(s),r,r,r,r),A.au(r,r,80*$.I().ga9()),A.eh(!1,!0,s.ko("assets/images/facebook.png"),r,!0,r,r,r,r,r,r,r,r,r,new A.XW(s),r,r,r,r)],p),B.K,B.bS,B.X)],p),B.K,r,B.z),r,q,r)},
 ko(a){var s,r=$.I().ga9()
 r=A.ua("assets/images/icon_bg.png",140*$.I().ga4(),140*r)
 s=$.I().ga9()
