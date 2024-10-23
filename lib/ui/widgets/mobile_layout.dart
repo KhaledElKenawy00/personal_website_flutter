@@ -8,7 +8,6 @@ import 'package:personal_website_flutter/ui/widgets/mobile_services_page.dart';
 
 import '../../core/helpers/spacing.dart';
 import '../pages/hobbies_page.dart';
-import '../pages/portfolio_page.dart';
 import 'lets_talk.dart';
 
 class MobileLayout extends StatelessWidget {

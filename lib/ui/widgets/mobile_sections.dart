@@ -32,7 +32,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'About',
-                  style: TextStyles.font20WhiteMedium,
+                  style: TextStyles.font24WhiteMedium,
                 ),
               ),
               InkWell(
@@ -45,7 +45,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'Services',
-                  style: TextStyles.font20WhiteMedium,
+                  style: TextStyles.font24WhiteMedium,
                 ),
               ),
               InkWell(
@@ -58,7 +58,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'Portfolio',
-                  style: TextStyles.font20WhiteMedium,
+                  style: TextStyles.font24WhiteMedium,
                 ),
               ),
               InkWell(
@@ -71,7 +71,7 @@ class MobileSections extends StatelessWidget {
                 },
                 child: Text(
                   'Hobbies',
-                  style: TextStyles.font20WhiteMedium,
+                  style: TextStyles.font24WhiteMedium,
                 ),
               ),
             ],
