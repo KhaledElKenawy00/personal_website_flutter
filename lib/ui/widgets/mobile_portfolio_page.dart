@@ -20,64 +20,47 @@ class MobilePortfolioPage extends StatelessWidget {
         children: [
           Text(
             'Portfolio',
-            style: TextStyles.font48WhiteRegular,
+            style: TextStyles.font64WhiteRegular,
           ),
           verticalSpace(4),
           Divider(
             color: ColorsManager.mainPurple,
             thickness: 2,
-            endIndent: 1055.w,
+            endIndent: 1000.w,
           ),
-          verticalSpace(20),
+          verticalSpace(40),
           Row(
             children: [
               Text(
-                'My Creative\nProjects',
+                'My Latest Projects',
                 textAlign: TextAlign.start,
-                style: TextStyles.font36WhiteBold,
-              ),
-              const Spacer(),
-              Text(
-                'Explore More',
-                style: TextStyles.font24WhiteMedium.copyWith(
-                  decoration: TextDecoration.underline,
-                ),
-              ),
-              horizontalSpace(10),
-              SvgPicture.asset(
-                'assets/svgs/forward_arrow.svg',
-                width: 20.w,
-                height: 20.h,
+                style: TextStyles.font48WhiteBold,
               ),
             ],
           ),
-          verticalSpace(100),
-          Row(
-            children: [
-              Container(
-                width: 540.w,
-                height: 427.h,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20.r),
-                  image: const DecorationImage(
-                    image: AssetImage('assets/images/sahseh_android.png'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
+          verticalSpace(70),
+          Container(
+            width: double.infinity,
+            height: 300.h,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20.r),
+              image: const DecorationImage(
+                image: AssetImage('assets/images/sahseh_android.png'),
+                fit: BoxFit.cover,
               ),
-              horizontalSpace(30),
-              Container(
-                width: 540.w,
-                height: 427.h,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20.r),
-                  image: const DecorationImage(
-                    image: AssetImage('assets/images/yassir_android.png'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
+            ),
+          ),
+          verticalSpace(50),
+          Container(
+            width: double.infinity,
+            height: 300.h,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(20.r),
+              image: const DecorationImage(
+                image: AssetImage('assets/images/yassir_android.png'),
+                fit: BoxFit.cover,
               ),
-            ],
+            ),
           ),
         ],
       ),

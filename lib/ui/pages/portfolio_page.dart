@@ -32,22 +32,9 @@ class PortfolioPage extends StatelessWidget {
           Row(
             children: [
               Text(
-                'My Creative\nProjects',
+                'My Latest Projects',
                 textAlign: TextAlign.start,
                 style: TextStyles.font36WhiteBold,
-              ),
-              const Spacer(),
-              Text(
-                'Explore More',
-                style: TextStyles.font24WhiteMedium.copyWith(
-                  decoration: TextDecoration.underline,
-                ),
-              ),
-              horizontalSpace(10),
-              SvgPicture.asset(
-                'assets/svgs/forward_arrow.svg',
-                width: 20.w,
-                height: 20.h,
               ),
             ],
           ),

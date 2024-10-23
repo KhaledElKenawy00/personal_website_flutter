@@ -9,6 +9,8 @@ import 'package:personal_website_flutter/ui/widgets/mobile_services_page.dart';
 import '../../core/helpers/spacing.dart';
 import '../pages/hobbies_page.dart';
 import 'lets_talk.dart';
+import 'mobile_hobbies_page.dart';
+import 'mobile_lets_talk.dart';
 
 class MobileLayout extends StatelessWidget {
   const MobileLayout({super.key});
@@ -42,9 +44,9 @@ class MobileLayout extends StatelessWidget {
           verticalSpace(120),
           const MobilePortfolioPage(),
           verticalSpace(120),
-          const HobbiesPage(),
+          const MobileHobbiesPage(),
           verticalSpace(120),
-          const LetsTalk(),
+          const MobileLetsTalk(),
         ],
       ),
     );

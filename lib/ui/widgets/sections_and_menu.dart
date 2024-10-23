@@ -74,16 +74,7 @@ class SectionsAndMenu extends StatelessWidget {
             style: TextStyles.font20WhiteMedium,
           ),
         ),
-        const Spacer(),
-        CircleAvatar(
-          radius: 24.r,
-          backgroundColor: Colors.white,
-          child: SvgPicture.asset(
-            'assets/svgs/menu_black.svg',
-            width: 30.w,
-            height: 30.h,
-          ),
-        ),
+       
       ],
     );
   }
