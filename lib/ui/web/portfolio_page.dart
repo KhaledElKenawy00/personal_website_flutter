@@ -38,19 +38,15 @@ class PortfolioPage extends StatelessWidget {
               ),
             ],
           ),
-          verticalSpace(100),
           Row(
             children: [
               Container(
                 width: 570.w,
-                height: 427.h,
+                height: 500.h,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20.r),
-                  image: const DecorationImage(
-                    image: AssetImage('images/seven.png'),
-                    fit: BoxFit.cover,
-                  ),
                 ),
+                child: SvgPicture.asset('assets/svgs/seven.svg'),
               ),
             ],
           ),
