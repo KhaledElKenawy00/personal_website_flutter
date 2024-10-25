@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 
 class ColorsManager {
-  static const Color mainPurple = Color(0xFF8643DC);
-  static const Color lightGrey = Color(0xFFD0D0D0);
-  static const Color lightPink = Color(0xFFFFF6FA);
-  static const Color pink = Color(0xFFFFE7F0);
-  static const Color lightGreen = Color(0xFFEDFFF5);
-  static const Color lightYellow = Color(0xFFFFFBF2);
-  static const Color yellow = Color(0xFFFFEEC9);
-  static const Color green = Color(0xFFCAFFE1);
-  static const Color lightBlue = Color(0xFFDDF5FF);
-  static const Color portfolioGradientStart = Color(0xFFBB85FF);
-  static const Color portfolioGradientEnd = Color(0xFFFFB1DE);
+  static const Color midnightBlue = Color(0xFF2A2D34);
+  static const Color steelGray = Color(0xFF737A8E);
+  static const Color teelGreen = Color(0xFF3C9A9A);
+  static const Color sunsetOrange = Color(0xFFFF6B35);
+  static const Color deepskyBlue = Color(0xFF3C79E6);
+  static const Color warmYellow = Color(0xFFFFCF44);
+  static const Color dustyRose = Color(0xFFD97D7D);
+  static const Color mossGreen = Color(0xFF6C876B);
+  static const Color mutedCoral = Color(0xFFEA8B7D);
+  static const Color softWhite = Color(0xFFF4F5F7);
+  static const Color softLelac = Color(0xFFB8A1CF);
 }
