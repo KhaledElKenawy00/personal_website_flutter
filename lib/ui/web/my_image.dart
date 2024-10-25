@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:simple_shadow/simple_shadow.dart';
 
 class MyImage extends StatelessWidget {
@@ -18,14 +19,8 @@ class MyImage extends StatelessWidget {
             offset: const Offset(0, 10),
             sigma: 10,
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(16.r),
-              child: Image(
-                width: 300.w,
-                height: 650.h,
-                fit: BoxFit.cover,
-                image: const AssetImage('images/khaled.JPG'),
-              ),
-            ),
+                borderRadius: BorderRadius.circular(16.r),
+                child: SvgPicture.asset('assets/svgs/khaled.svg')),
           ),
         ],
       ),
