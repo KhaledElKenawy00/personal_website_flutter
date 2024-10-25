@@ -24,7 +24,7 @@ class ServicesPage extends StatelessWidget {
           ),
           verticalSpace(4),
           Divider(
-            color: ColorsManager.mainPurple,
+            color: ColorsManager.dustyRose,
             thickness: 2,
             endIndent: 1060.w,
           ),
@@ -43,19 +43,12 @@ class ServicesPage extends StatelessWidget {
                 description:
                     'Leading mobile teams to make strong,\nhigh-performing apps that drive user\nengagement, Build with confidence\nusing cutting-edge tools and strategies.',
               ),
-              horizontalSpace(100),
+              horizontalSpace(400),
               const MySkills(
                 image: 'assets/images/mobile.png',
                 title: 'Project Management',
                 description:
                     'Organize and execute your projects with\nprecision using our advanced management\nsolutions, From planning to delivery,\nstreamline every aspect of your workflow.',
-              ),
-              horizontalSpace(100),
-              const MySkills(
-                image: 'assets/images/mobile.png',
-                title: 'Teaching',
-                description:
-                    'I love teaching people stuff, I have\nbeen teaching for more than 7 years now\nand I love it, I make content on youTube\nonly and my content is free.',
               ),
             ],
           ),

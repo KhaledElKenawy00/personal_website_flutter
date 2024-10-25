@@ -18,28 +18,30 @@ class LetsTalk extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
-            Text('Let\'s Talk', style: TextStyles.font36WhiteMedium),
+            Text('Contact Me', style: TextStyles.font36WhiteMedium),
             verticalSpace(40),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 InkWell(
                   onTap: () {
-                    _launchUrl('https://www.linkedin.com/in/omarahmedx14/');
+                    _launchUrl(
+                        'https://www.linkedin.com/in/khaled-mostafa-ismael/');
                   },
                   child: setupIconStack('assets/images/linkedin.png'),
                 ),
                 horizontalSpace(4),
                 InkWell(
                   onTap: () {
-                    _launchUrl('https://www.instagram.com/omarahmedx14/');
+                    _launchUrl('https://www.instagram.com/khaled_elkenawey/');
                   },
                   child: setupIconStack('assets/images/instagram.png'),
                 ),
                 horizontalSpace(4),
                 InkWell(
                   onTap: () {
-                    _launchUrl('https://www.facebook.com/omarahmedxx14');
+                    _launchUrl(
+                        'https://www.facebook.com/profile.php?id=61561327649024');
                   },
                   child: setupIconStack('assets/images/facebook.png'),
                 ),

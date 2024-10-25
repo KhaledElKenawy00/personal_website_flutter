@@ -21,7 +21,7 @@ class MobileServicesPage extends StatelessWidget {
           style: TextStyles.font64WhiteRegular,
         ),
         Divider(
-          color: ColorsManager.mainPurple,
+          color: ColorsManager.dustyRose,
           thickness: 2,
           endIndent: 1100.w,
         ),

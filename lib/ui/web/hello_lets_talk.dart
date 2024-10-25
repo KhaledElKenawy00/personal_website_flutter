@@ -22,17 +22,17 @@ class HelloLetsTalk extends StatelessWidget {
             style: TextStyles.font24WhiteMedium,
           ),
           Text(
-            'Omar Ahmed',
+            'Khaled Mostafa',
             style: TextStyles.font60WhiteBold,
           ),
           Text(
-            'Mobile Tech Lead',
+            'Mobile App Developer',
             style: TextStyles.font24LightgreyRegular,
           ),
-          verticalSpace(50),
+          verticalSpace(150),
           ElevatedButton(
             style: ElevatedButton.styleFrom(
-                backgroundColor: ColorsManager.mainPurple,
+                backgroundColor: ColorsManager.dustyRose,
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(100.r),
                 ),
@@ -46,7 +46,7 @@ class HelloLetsTalk extends StatelessWidget {
               );
             },
             child: Text(
-              'Let’s Talk',
+              'Contact Me',
               style: TextStyles.font24WhiteMedium,
             ),
           )

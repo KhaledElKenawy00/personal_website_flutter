@@ -24,7 +24,7 @@ class PortfolioPage extends StatelessWidget {
           ),
           verticalSpace(4),
           Divider(
-            color: ColorsManager.mainPurple,
+            color: ColorsManager.deepskyBlue,
             thickness: 2,
             endIndent: 1055.w,
           ),
@@ -42,24 +42,12 @@ class PortfolioPage extends StatelessWidget {
           Row(
             children: [
               Container(
-                width: 540.w,
+                width: 570.w,
                 height: 427.h,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20.r),
                   image: const DecorationImage(
-                    image: AssetImage('assets/images/sahseh_android.png'),
-                    fit: BoxFit.cover,
-                  ),
-                ),
-              ),
-              horizontalSpace(30),
-              Container(
-                width: 540.w,
-                height: 427.h,
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20.r),
-                  image: const DecorationImage(
-                    image: AssetImage('assets/images/yassir_android.png'),
+                    image: AssetImage('images/seven.png'),
                     fit: BoxFit.cover,
                   ),
                 ),

@@ -22,7 +22,7 @@ class MobilePortfolioPage extends StatelessWidget {
         ),
         verticalSpace(4),
         Divider(
-          color: ColorsManager.mainPurple,
+          color: ColorsManager.dustyRose,
           thickness: 2,
           endIndent: 1100.w,
         ),

@@ -31,7 +31,7 @@ class MobileHelloLetsTalk extends StatelessWidget {
         verticalSpace(50),
         ElevatedButton(
           style: ElevatedButton.styleFrom(
-            backgroundColor: ColorsManager.mainPurple,
+            backgroundColor: ColorsManager.sunsetOrange,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(100.r),
             ),

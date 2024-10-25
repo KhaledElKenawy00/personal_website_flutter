@@ -23,7 +23,7 @@ class MyImage extends StatelessWidget {
                 width: 300.w,
                 height: 650.h,
                 fit: BoxFit.cover,
-                image: const AssetImage('assets/images/batman.jpeg'),
+                image: const AssetImage('images/khaled.JPG'),
               ),
             ),
           ),

@@ -22,6 +22,7 @@ class MobileMyImage extends StatelessWidget {
                 width: 500.w,
                 height: 250.h,
                 fit: BoxFit.cover,
+                //الصوره اللي فوق
                 image: const AssetImage('assets/images/joker.jpeg'),
               ),
             ),
